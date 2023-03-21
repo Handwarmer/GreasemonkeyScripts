@@ -11,6 +11,8 @@
 
 (function() {
     'use strict';
+
+    // 去掉b站桌面版首页左上角的滚动banner
     var swipe = document.querySelector("div.recommended-swipe.grid-anchor");
     swipe.remove();
 
@@ -26,6 +28,7 @@
         return seconds;
     };
 
+    // 用来删除时长短于固定值的视频，现在还不好用，因为搞不定触发条件- -
     const SHORT_VIDEO_THRESHOLD_IN_SEC = 360; //短视频判断阈值，秒数
     var removeShortVideos = () => {
         var videoLengths = document.querySelectorAll("span.bili-video-card__stats__duration");
@@ -40,6 +43,7 @@
         });
     };
 
+    // 用来删除广告视频链接，现在还不好用，因为搞不定触发条件- -
     var removeAdCard = () => {
         var adBadges = document.querySelectorAll("svg.bili-video-card__info--ad");
         adBadges.forEach(adBadge => {
