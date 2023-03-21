@@ -7,6 +7,7 @@
 // @match        *://www.bilibili.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
 // @grant        none
+// @downloadUrl  https://github.com/Handwarmer/GreasemonkeyScripts/raw/master/bilibili.user.js
 // ==/UserScript==
 
 (function() {
