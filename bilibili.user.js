@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         bilibili enhancer
+// @name         让叔叔更好用！
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
