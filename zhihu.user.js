@@ -4,7 +4,7 @@
 // @version      0.1
 // @author       Handwarmer
 // @match        *://www.zhihu.com/
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://static.zhihu.com/heifetz/favicon.ico
 // @grant        none
 // ==/UserScript==
 
